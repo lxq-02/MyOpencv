@@ -11,5 +11,4 @@ if (key == 'q'):
 
 cv2.destroyAllWindows()
 
-测试机哦
-这
+cv2.dct
