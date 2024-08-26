@@ -10,5 +10,3 @@ if (key == 'q'):
     exit()
 
 cv2.destroyAllWindows()
-
-cv2.dct
