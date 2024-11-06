@@ -1,10 +1,10 @@
 import cv2
 
-cv2.namedWindow('3.3_image', cv2.WINDOW_NORMAL)
+cv2.namedWindow('1.2_image', cv2.WINDOW_NORMAL)
 img = cv2.imread('D:/0.jpg')
 
 while True:
-    cv2.imshow('3.3_image', img)
+    cv2.imshow('1.2_image', img)
 
     key = cv2.waitKey(0)
 
@@ -15,7 +15,7 @@ while True:
     elif (key & 0xFF == ord('s')):
         print('sss')
         # 当用户点击s时，保存为1.jpg
-        cv2.imwrite('D:\\1.jpg', img)
+        cv2.imwrite('H:\\1.jpg', img)
     else:
         print('other')
 cv2.destroyAllWindows()
